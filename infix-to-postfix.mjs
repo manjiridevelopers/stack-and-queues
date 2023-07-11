@@ -5,7 +5,7 @@ function precedenceCalc(char) {
     return 3;
   } else if (char == "*" || char == "/") {
     return 2;
-  } else if (char == "+" || char == "*") {
+  } else if (char == "+" || char == "-") {
     return 1;
   }
 }
